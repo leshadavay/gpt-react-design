@@ -55,10 +55,10 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.section_padding {
+.section__padding {
   padding: 4rem 6rem;
 }
-.section_margin {
+.section__margin {
   margin: 4rem 6rem;
 }
 
