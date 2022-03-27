@@ -50,6 +50,12 @@
     height: 250px;
   }
 }
+@media screen and (max-width: 850px) {
+  .gpt3__blog-heading h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .gpt3__blog-container_groupB {
@@ -68,5 +74,18 @@
   .gpt3__blog-heading h1 {
     font-size: 34px;
     line-height: 42px;
+  }
+  .gpt3__footer-links div {
+    margin: 1rem 0;
+  }
+  .gpt3__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .gpt3__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
   }
 }
